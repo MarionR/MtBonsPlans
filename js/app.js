@@ -216,6 +216,10 @@ app.controller('PlaceDetailCtrl', ['$scope', '$routeParams', 'Places', 'leafletD
         });
     };
 
+    $scope.getNumber = function(num) {
+        return new Array(num);   
+    }
+    
     $scope.defaults = {
         tileLayer: 'http://www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png',
         tileLayerOptions: {
