@@ -90,11 +90,12 @@ body {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05) inset, 0px 1px 0px rgba(255, 255, 255, 0.1);
     min-height: 20px;
     padding: 19px;
+    padding-top: 1px;
     margin-bottom: 20px;
     background-color: rgb(245, 245, 245);
     border: 1px solid rgb(227, 227, 227);
     border-radius: 4px;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05) 
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
 }
 .srcOver{
     background-image: linear-gradient(to bottom, rgb(155, 155, 155) 0px, rgb(225, 225, 225) 100%);
@@ -103,9 +104,14 @@ body {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05) inset, 0px 1px 0px rgba(255, 255, 255, 0.1);
     min-height: 20px;
     padding: 19px;
+    padding-top: 1px;
     margin-bottom: 20px;
     background-color: rgb(245, 245, 245);
     border: 1px solid rgb(227, 227, 227);
     border-radius: 4px;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05) 
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05); 
+}
+
+#panel-src a{
+    color: #4d4d4d;
 }

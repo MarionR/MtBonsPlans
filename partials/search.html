@@ -54,9 +54,9 @@
 		</div>
 		<div class="col-lg-8 col-md-offset-1 col-md-8 col-md-offset-1 col-sm-7 col-sm-offset-1 col-xs-8 col-xs-offset-1">
 		    <div class="row">
-			    <section ng-repeat="place in filteredLieux = (lieux.data.features | filter: q | filter: srcType | filter: srcCat | filter: srcTheme)"> 
+			    <section ng-repeat="place in filteredLieux = (lieux.data.features | filter: q | filter: srcType | filter: srcCat | filter: srcTheme)"  id="panel-src"> 
 					<a href="#/places/{{place.properties.id}}">
-				    	<div class= "col-lg-5 col-md-5 col-sm-5 col-xs-12 col-xs-offset-1" ng-class="placeClass" ng-mouseenter="placeClass='srcOver'" ng-mouseleave="placeClass='srcSimple'">
+				    	<div class= "col-lg-5 col-md-5 col-sm-5 col-xs-12 col-xs-offset-1" ng-class="placeClass" ng-mouseenter="placeClass='srcOver'" ng-mouseleave="placeClass='srcSimple'" >
 		            		<center><h4>{{place.properties.Nom}}</h4></center> 
 		                    <a href="Data/Photos/{{place.properties.Photo[0].URL}}">
 		                        <img class="img-responsive img-thumbnail" alt="Responsive image" ng-src="Data/Photos/{{place.properties.Photo[0].URL}}"></a>

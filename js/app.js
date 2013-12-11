@@ -189,10 +189,17 @@ app.controller('navBarCtrl', ["$scope", function ($scope){
 
 }]);
 
-app.controller('PlaceDetailCtrl', ['$scope', '$routeParams', 'Places',
-  function($scope, $routeParams, Places) {
+app.controller('PlaceDetailCtrl', ['$scope', '$routeParams', 'Places', 'leafletData',
+  function($scope, $routeParams, Places, leafletData) {
     $scope.place = Places.get({placeID: $routeParams.placeID}, function(place) {
       // $scope.mainImageUrl = place.images[0];
+        angular.extend($scope, {
+            GeoPlace: {
+                data: $scope.place,
+                resetStyleOnMouseout: true
+            },
+                });
+        $scope.fitBounds();
     });
 
     $scope.center = {
@@ -201,14 +208,43 @@ app.controller('PlaceDetailCtrl', ['$scope', '$routeParams', 'Places',
             zoom: 11
         };
 
+    $scope.fitBounds = function() {
+        leafletData.getMap().then(function(map) {
+            leafletData.getGeoJSON().then(function(obj){
+                map.fitBounds(obj.getBounds());
+            });
+        });
+    };
+
     $scope.defaults = {
-          tileLayer: 'http://www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png',
-            tileLayerOptions: {
+        tileLayer: 'http://www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png',
+        tileLayerOptions: {
                 opacity: 0.9,
                 detectRetina: true,
                 reuseTiles: true
+        },
+        
+        icon: {
+            url: 'http://cdn.leafletjs.com/leaflet-0.6.4/images/marker-icon.png',
+            retinaUrl: 'http://cdn.leafletjs.com/leaflet-0.6.4/images/marker-icon@2x.png',
+            size: [25, 41],
+            anchor: [12, 40],
+            popup: [0, -40],
+            shadow: {
+                url: 'http://cdn.leafletjs.com/leaflet-0.6.4/images/marker-shadow.png',
+                retinaUrl: 'http://cdn.leafletjs.com/leaflet-0.6.4/images/marker-shadow.png',
+                size: [41, 41],
+                anchor: [12, 40]
             }
-        };
+        },
+    
+        path: {
+            weight: 10,
+            opacity: 1,
+            color: '#0000ff'
+        }
+
+    };
 
   }]);
 
