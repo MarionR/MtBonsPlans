@@ -1,0 +1,67 @@
+{
+    "type": "Feature",
+    "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.48342895507812,
+            45.53954142228416
+          ],
+          [
+            -73.51776123046875,
+            45.495277708287695
+          ],
+          [
+            -73.47999572753906,
+            45.601067798973766
+          ],
+          [
+            -73.44841003417969,
+            45.591939237088035
+          ],
+          [
+            -73.48068237304688,
+            45.54435059752589
+          ]
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "Nom": "Cap Saint Jacques",
+        "Note": 4,
+        "Type": "Itineraire",
+        "Theme": "Iles",
+        "Categorie": "Vélo",
+        "Depart": "Longueuil",
+        "Arrivee": "Cap saint jacques",
+        "Km": 1,
+        "Duree": "1h",
+        "Comm" : "EN vlat tit un super ptit endroit bueno sympatico !",
+        "NbJour" : 2,
+        "Photo": [
+          {
+            "URL": "CapSaintJacques_1.JPG",
+            "Legende": null
+          },
+          {
+            "URL": "CapSaintJacques_2.JPG",
+            "Legende": null
+          }
+        ],
+        "Descriptif": "super baladesuper",
+        "Etape": [
+          {
+            "Numero": 1,
+            "Descriptif": "blablabla"
+          },
+          {
+            "Numero": 2,
+            "Descriptif": "blablabla"
+          },
+          {
+            "Numero": 3,
+            "Descriptif": "blablabla"
+          }
+        ]
+      }
+}

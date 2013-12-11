@@ -1,0 +1,70 @@
+<hr>
+<div class="container">
+	<div class="row">
+		<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<div class="panel-title">
+						<span>Recherche</span>
+					</div>
+				</div>
+				<div class="panel-body">
+					 <form name="myForm" role="form">
+					 	<div class="form-group">
+					 		<input type="search" ng-model="q" placeholder="Mots Clefs..." />
+					 	</div>
+					 	    <div class="form-group btn-group">
+						        <button type="button" class="btn btn-primary" ng-model="src.type" btn-radio="'Tout'">Tout</button>
+						        <button type="button" class="btn btn-primary" ng-model="src.type" btn-radio="'Itineraire'">Itinéraire</button>
+						        <button type="button" class="btn btn-primary" ng-model="src.type" btn-radio="'Lieu'">Lieu</button>
+						    </div>
+
+							<div class="form-group">
+								<label for="src-select-cat" >Catégorie : </label>
+								<select id="src-select-cat" class="form-control" ng-model="src.Cat" ng-show = "src.type == 'Tout'" ng-disabled="src.type == 'Tout'">
+									<option>Tout</option>
+								</select>
+								<select id="src-select-cat" class="form-control" ng-model="src.Cat" ng-show = "src.type == 'Itineraire'">
+									<option value="Tout">Tout</option>
+								  	<option value="à pied">à pied</option>
+								  	<option value="Vélo">à Vélo</option>
+								  	<option value="en char">en char</option>
+								</select>
+
+								<select id="src-select-cat" class="form-control" ng-model="src.Cat" ng-show = "src.type == 'Lieu'">
+									<option value="Tout">Tout</option>
+									<option value="Bar">Bar</option>
+								  	<option value="Brunch">Brunch</option>
+								</select>
+							</div>
+
+							<label for="src-select-theme" >Thème : </label>
+								<select id="src-select-theme" class="form-control" ng-model="src.Theme">
+									<option value="Tout" selected>Tout</option>
+									<option value="Hébergement">Hébergement</option>
+									<option value="Magasinage">Magasinage</option>
+									<option value="Nature">Nature</option>
+									<option value="Site/Monument">Site/Monument</option>
+									<option value="Utile">Utile</option>
+									<option value="Bouffe">Bouffe</option>
+								</select>	
+					 </form>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-8 col-md-offset-1 col-md-8 col-md-offset-1 col-sm-7 col-sm-offset-1 col-xs-8 col-xs-offset-1">
+		    <div class="row">
+			    <section ng-repeat="place in filteredLieux = (lieux.data.features | filter: q | filter: srcType | filter: srcCat | filter: srcTheme)"> 
+					<a href="#/places/{{place.properties.id}}">
+				    	<div class= "col-lg-5 col-md-5 col-sm-5 col-xs-12 col-xs-offset-1" ng-class="placeClass" ng-mouseenter="placeClass='srcOver'" ng-mouseleave="placeClass='srcSimple'">
+		            		<center><h4>{{place.properties.Nom}}</h4></center> 
+		                    <a href="Data/Photos/{{place.properties.Photo[0].URL}}">
+		                        <img class="img-responsive img-thumbnail" alt="Responsive image" ng-src="Data/Photos/{{place.properties.Photo[0].URL}}"></a>
+		                    <pre hidden>{{place.properties.Comm}}</pre>
+				        </div> 
+			        </a>
+			    </section>
+		    </div>
+		</div>
+	</div>
+</div>
