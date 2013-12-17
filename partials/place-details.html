@@ -43,8 +43,22 @@
 	<div class="row">
 	    <div class="col-lg-7 col-md-7 col-sm-12">
 	    	<leaflet id="map_canvas" center="center" defaults="defaults" geojson="GeoPlace"></leaflet>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <ul class="ulNone">
+                          <li ng-repeat="img in place.properties.Photo">
+                            <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                                <a href="Data/Photos/{{img.URL}}">
+                                    <img class="img-responsive img-thumbnail" alt="Responsive image" ng-src="Data/Photos/{{img.URL}}">
+                                </a>
+                                <span><center>{{img.Legende}}</center></span> 
+                            </div>
+                          </li>
+                        </ul>  
+                </div>
+            </div>
 	    </div>
-
+<hr>
 		<!-- Details d'une place -->
         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 ">
             <div class="panel panel-default">
@@ -61,7 +75,41 @@
                     </div>
                 </div>
               </div>
-              <div class="panel-body">
+
+              <div class="panel-body" ng-show="isLieu(place.properties.Type)">
+                    <div class="row">
+                        <div class="col-xs-6">
+                           <div class="row">
+                                <div class="col-xs-10">
+                                    <center><strong>Catégorie</strong></center>  
+                                    <h4><center>{{place.properties.Categorie}}</center></h4>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-11 col-xs-offset-1" id="dateTest">
+                                    <i class="glyphicon glyphicon-ok-circle"></i><h5>Testé le : {{place.properties.DateTest}}</h5>
+                                    <p><a href="{{place.properties.Web}}">Site Internet</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="panelComm" class="col-xs-6">
+                            <div class="panel panel-info">
+                              <div class="panel-heading">
+                                <h3 class="panel-title">Adresse</h3>
+                              </div>
+                              <div class="panel-body">
+                                {{place.properties.Adresse}}
+                              </div>
+                            </div> 
+                        </div> 
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-10 col-xs-offset-1 well well-sm">{{place.properties.Comm}}</div>
+                    </div>
+              </div>              
+
+              <div class="panel-body" ng-show="isIti(place.properties.Type)">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-xs-6">
                         <center><h4 class="well well-sm">Thème : {{place.properties.Theme}}</h4></center>
@@ -99,7 +147,7 @@
                     </div>
                 </div>
               </div>
-              <div class="panel-footer">
+              <div class="panel-footer" ng-show="isIti(place.properties.Type)">
                 <div class="row">
                     <strong>   
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-3">
@@ -113,23 +161,10 @@
                     </div>
                     </strong>
                 </div>
-              </div>
+              </div>              
+
+
             </div>
         </div> 
 	</div>	
-
-   		<div class="row">
-   			<div class="col-lg-7 col-md-7">
-		            <ul class="ulNone">
-		              <li ng-repeat="img in place.properties.Photo">
-		              	<div class="col-lg-6 col-md-6">
-			                <a href="Data/Photos/{{img.URL}}">
-			                    <img class="img-responsive img-thumbnail" alt="Responsive image" ng-src="Data/Photos/{{img.URL}}">
-			                </a>
-		                	<span><center>{{img.Legende}}</center></span> 
-		            	</div>
-		              </li>
-		            </ul>  
-		    </div>
-	    </div>
 </div>

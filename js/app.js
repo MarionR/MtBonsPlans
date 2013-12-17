@@ -251,5 +251,13 @@ app.controller('PlaceDetailCtrl', ['$scope', '$routeParams', 'Places', 'leafletD
 
     };
 
+    $scope.isLieu = function(place) {
+        return place=="Lieu"? true:false;
+    };
+    $scope.isIti = function(iti) {
+        return iti=="Itineraire"? true:false;
+        //return iti.properties.Type === "Itineraire";
+    };
+    
   }]);
 

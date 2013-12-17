@@ -1,0 +1,86 @@
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "Nom": "Iles de Boucherville",
+        "Type" :  "Itineraire",
+        "Theme" : "Nature",
+        "Categorie" : "Vélo",
+        "Depart" :  "Longueuil",
+        "Arrivee" : "Iles de Boucherville",
+        "Km" : "--",
+        "Duree" : "--",
+        "NbJour" : 0,
+        "Note" : 4,
+        "Comm" : "En descendant le Saint-Laurent, le traversier vous emmène sur le parc national des îles de Bouchervilles, une évasion nature à deux pas de Montréal.",
+        "Photo" : [
+          { "URL" : "Boucherville_1.jpg",
+            "Legende" : null
+          },
+          { "URL" : "Boucherville_2.jpg",
+            "Legende" : null 
+          }, 
+          { "URL" : "Boucherville_3.jpg",
+            "Legende" : null 
+          }, 
+          { "URL" : "Boucherville_4.jpg",
+          "Legende" : null 
+          }
+        ],
+        "Etape" : [
+          {
+          "Descriptif" :  "Depuis Longueuil, rejoindre le charmant centre ville de Saint-Lambert. Pour les plus affamés, un brunch au \"Dent la bouffe\" (crêpes, fruits, bagel à la crème…) vous donnera des forces pour la suite du parcours !",
+          "Numero" :  1
+          },
+          {
+          "Descriptif" :  "Continuer en direction du Saint-Laurent par la rue Notre-Dame et rejoindre la piste cyclable, pognée entre le fleuve et l'autoroute, mais très roulante !",
+          "Numero" :  2
+          },
+          {
+          "Descriptif" :  "Suivre le fleuve jusqu’à la fin de la piste (c'est-à-dire l'escalier pour passer de l’autre coté de l’autoroute).",
+          "Numero" :  3
+          },
+          {
+          "Descriptif" :  "Juste avant cet escalier se trouve un pontont d’où part le traversier (environ 6,50$ par personne, l’entrée du parc est inclus; se renseigner avant sur les horaires et attendre le bateau car il n'y a pas d'indications). ",
+          "Numero" :  4
+          },
+          {
+          "Descriptif" :  "Une fois sur l’île, suivre la piste cyclable pour silonner les îles comme bon vous semble.",
+          "Numero" :  5
+          },
+          {
+          "Descriptif" :  "Rejoindre le traversier pour Boucherville. Si le soleil est au rendez-vous, une glace molle trempée dans le chocolat à la crémerie de Boucherville sera surement très appréciée !",
+          "Numero" :  6
+          },
+          {
+          "Descriptif" :  "Rentrer sur Longueuil par les pistes cyclables.",
+          "Numero" :  7
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.48342895507812,
+            45.53954142228416
+          ],
+          [
+            -73.51776123046875,
+            45.495277708287695
+          ],
+          [
+            -73.47999572753906,
+            45.601067798973766
+          ],
+          [
+            -73.44841003417969,
+            45.591939237088035
+          ],
+          [
+            -73.48068237304688,
+            45.54435059752589
+          ]
+        ]
+      }
+    }
