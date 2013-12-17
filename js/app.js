@@ -125,10 +125,11 @@ app.controller('BonPlansCtrl', ["$scope", "$http" ,"$log", "leafletData", functi
     $scope.placeClass = 'srcSimple';
 
 	$scope.isLieu = function(place) {
-        return place.properties.Type === "Lieu";
+        return place=="Lieu"? true:false;
     };
 	$scope.isIti = function(iti) {
-        return iti.properties.Type === "Itineraire";
+        return iti=="Itineraire"? true:false;
+        //return iti.properties.Type === "Itineraire";
     };
 
 	$scope.getNumber = function(num) {
@@ -169,7 +170,7 @@ app.controller('BonPlansCtrl', ["$scope", "$http" ,"$log", "leafletData", functi
             },
         });
 		$scope.lieux.data.features.forEach(function(lieu){
-            lieu.selected = true;
+            lieu.selected = false;
 		});
 		$scope.fitBounds();
 		$scope.lieux.data.features.forEach(function(f){
