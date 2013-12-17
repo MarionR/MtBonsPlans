@@ -1,0 +1,32 @@
+{
+  "type": "Feature",
+  "properties": {
+    "id": 4,
+    "Nom": "Le Gainzbar",
+    "Note": 0,
+    "Type": "Lieu",
+    "Theme" : "Bouffe",
+    "Categorie": "Bar",
+    "Adresse": "6289, rue Saint-Hubert, Montréal, QC H2S 2L9",
+    "Web": "http://www.legainzbar.ca",
+    "DateTest": "12 octobre 2013",
+    "Comm": "super bar !! Avec les dimanches du conte le Dimanche soir ! ",
+    "Photo": [
+      {
+        "URL": "gainzbar1.jpg",
+        "Legende": "boucherville blabla"
+      },
+      {
+        "URL": "gainzbar2.jpg",
+        "Legende": "Les dimanches du conte"
+      }
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -73.67027888298035,
+      45.33429218887359
+    ]
+  }
+}
