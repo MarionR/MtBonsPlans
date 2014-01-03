@@ -21950,40 +21950,44 @@
         ]
       }
     },
-    {     
-      "type": "Feature",
-      "properties": {
-          "id" : 9,
-          "Nom" : "Oh Petits Bonheurs",
-          "Type"  :null,
-          "Theme" :null,
-          "Adresse" : "532 Av Victoria,\n Saint-Lambert, QC, J4P2J5",
-          "Web" : "https://plus.google.com/113365176189368681585/about?gl=ca&hl=fr",
-          "DateTest"  :null,
-          "Comm"  :null,
-          "Categorie" :null,
-          "Depart"  :null,
-          "Arrivee" :null,
-          "Km"  :null,
-          "Duree" :null,
-          "NbJour"  :null,
-          "Note"  :null,
-          "Photo" :
-              [      
-                {
-                  "URL"  : null,
-                  "Legende"  : null
-                }  
-              ],      
-          "Etape" : [
-              {
-              "Descriptif"  : null,
-              "Numero"  : 1 
-              }
-          ] 
-    },
-      "geometry": {
-      }
-}
+    {     "type": "Feature",
+          "properties": {
+              "id" : 9,
+              "Nom" : "Oh Petits Bonheurs",
+              "Type"  :null,
+              "Theme" :null,
+              "Adresse" : "532 Av Victoria,\n Saint-Lambert, QC, J4P2J5",
+              "Web" : "https://plus.google.com/113365176189368681585/about?gl=ca&hl=fr",
+              "DateTest"  :null,
+              "Comm"  :null,
+              "Categorie" :null,
+              "Depart"  :null,
+              "Arrivee" :null,
+              "Km"  :null,
+              "Duree" :null,
+              "NbJour"  :null,
+              "Note"  :null,
+              "Photo" :
+                  [      
+                    {
+                      "URL"  : null,
+                      "Legende"  : null
+                    }  
+                  ],      
+              "Etape" : [
+                  {
+                  "Descriptif"  : null,
+                  "Numero"  : 1 
+                  }
+              ] 
+        },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -73.510619,
+              45.501534
+            ]
+          }
+    }
   ]
 }
