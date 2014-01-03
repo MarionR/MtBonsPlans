@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "properties": {
+      "id" : 6,
+      "Nom" : "Marius et Fanny",
+      "Type"  :null,
+      "Theme" :null,
+      "Adresse" :"4439 St Denis \n Coin St Denis \n Montréal, QC, H2T 2T2",
+      "Web" :null,
+      "DateTest"  :null,
+      "Comm"  :"Patisserie / Chocolaterie, 4,25+tx le chocolat",
+      "Categorie" :null,
+      "Depart"  :null,
+      "Arrivee" :null,
+      "Km"  :null,
+      "Duree" :null,
+      "NbJour"  :null,
+      "Note"  :null,
+      "Photo" :
+          [      
+            {
+              "URL"  : null,
+              "Legende"  : null
+            }  
+          ],      
+      "Etape" : [
+          {
+          "Descriptif"  : null,
+          "Numero"  : 1 
+          }
+      ] 
+},
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -73.58238101005554,
+      45.52378849362283
+    ]
+  }
+}

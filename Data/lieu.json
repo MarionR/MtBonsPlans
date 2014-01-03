@@ -21765,8 +21765,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.67027888298035,
-          45.33429218887359
+          -73.60111355781555,
+          45.535318026051215
         ]
       }
     },
@@ -21781,7 +21781,7 @@
           "Web" : null,
           "DateTest"  : null,
           "Comm"  : "La voie maritime  du Saint-Laurent vous entraîne sur un parcours au milieu de l'eau.",
-          "Categorie" : "Vélo"  ,
+          "Categorie" : "Vélo",
           "Depart"  : "Saint-Lambert (écluses)",
           "Arrivee" : "Saint-Lambert (écluses)",
           "Km"  : null,
@@ -21829,6 +21829,161 @@
           45.43429218887359
         ]
       }
-    }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "id" : 6,
+          "Nom" : "Marius et Fanny",
+          "Type"  :null,
+          "Theme" :null,
+          "Adresse" :"4439 St Denis \n Coin St Denis \n Montréal, QC, H2T 2T2",
+          "Web" :null,
+          "DateTest"  :null,
+          "Comm"  :"Patisserie / Chocolaterie, 4,25+tx le chocolat",
+          "Categorie" :null,
+          "Depart"  :null,
+          "Arrivee" :null,
+          "Km"  :null,
+          "Duree" :null,
+          "NbJour"  :null,
+          "Note"  :null,
+          "Photo" :
+              [      
+                {
+                  "URL"  : null,
+                  "Legende"  : null
+                }  
+              ],      
+          "Etape" : [
+              {
+              "Descriptif"  : null,
+              "Numero"  : 1 
+              }
+          ] 
+    },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58238101005554,
+          45.52378849362283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "id" : 7,
+          "Nom" : "Bonté Divine",
+          "Type"  :null,
+          "Theme" :null,
+          "Adresse" :"1665 avenue de Bourgogne, \nChambly, QC, J3L 1Y8",
+          "Web" :"http://www.bontedivine.ca",
+          "DateTest"  :null,
+          "Comm"  :null,
+          "Categorie" :null,
+          "Depart"  :null,
+          "Arrivee" :null,
+          "Km"  :null,
+          "Duree" :null,
+          "NbJour"  :null,
+          "Note"  :null,
+          "Photo" :
+              [      
+                {
+                  "URL"  : null,
+                  "Legende"  : null
+                }  
+              ],      
+          "Etape" : [
+              {
+              "Descriptif"  : null,
+              "Numero"  : 1 
+              }
+          ] 
+    },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.28622221946716,
+          45.44768247796881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "id" : 8,
+          "Nom" : "Five Guys",
+          "Type"  :null,
+          "Theme" :null,
+          "Adresse" :"468 Mc Gill, \n Montréal, QC, H2Y2H4",
+          "Web" :"http://www.fiveguys.com/",
+          "DateTest"  :null,
+          "Comm"  :null,
+          "Categorie" :null,
+          "Depart"  :null,
+          "Arrivee" :null,
+          "Km"  :null,
+          "Duree" :null,
+          "NbJour"  :null,
+          "Note"  :null,
+          "Photo" :
+              [      
+                {
+                  "URL"  : null,
+                  "Legende"  : null
+                }  
+              ],      
+          "Etape" : [
+              {
+              "Descriptif"  : null,
+              "Numero"  : 1 
+              }
+          ] 
+    },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.559086,
+          45.500724
+        ]
+      }
+    },
+    {     
+      "type": "Feature",
+      "properties": {
+          "id" : 9,
+          "Nom" : "Oh Petits Bonheurs",
+          "Type"  :null,
+          "Theme" :null,
+          "Adresse" : "532 Av Victoria,\n Saint-Lambert, QC, J4P2J5",
+          "Web" : "https://plus.google.com/113365176189368681585/about?gl=ca&hl=fr",
+          "DateTest"  :null,
+          "Comm"  :null,
+          "Categorie" :null,
+          "Depart"  :null,
+          "Arrivee" :null,
+          "Km"  :null,
+          "Duree" :null,
+          "NbJour"  :null,
+          "Note"  :null,
+          "Photo" :
+              [      
+                {
+                  "URL"  : null,
+                  "Legende"  : null
+                }  
+              ],      
+          "Etape" : [
+              {
+              "Descriptif"  : null,
+              "Numero"  : 1 
+              }
+          ] 
+    },
+      "geometry": {
+      }
+}
   ]
 }

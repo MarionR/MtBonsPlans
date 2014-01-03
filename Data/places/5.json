@@ -1,0 +1,60 @@
+{
+  "type": "Feature",
+  "properties": {
+      "id" : 5,
+      "Nom" : "Digue du Saint-Laurent"  ,
+      "Type"  : "Itineraire"  ,
+      "Theme" : "Nature"  ,
+      "Adresse" : null ,
+      "Web" : null,
+      "DateTest"  : null,
+      "Comm"  : "La voie maritime  du Saint-Laurent vous entraîne sur un parcours au milieu de l'eau.",
+      "Categorie" : "Vélo",
+      "Depart"  : "Saint-Lambert (écluses)",
+      "Arrivee" : "Saint-Lambert (écluses)",
+      "Km"  : null,
+      "Duree" : "3-4h",
+      "NbJour"  : 0,
+      "Note"  : 3,
+      "Photo" :   
+          [      
+            {
+              "URL"  : "Digue_1.jpg" ,
+              "Legende"  : null
+            },  
+            {
+              "URL"  : "Digue_2.jpg" ,
+              "Legende"  : null
+            }  
+          ],      
+      "Etape" : [
+          {
+          "Descriptif"  : "Rejoindre les écluses de Saint-Lambert, les traverser et emprunter le chemin à gauche. C'est le début de la voie maritime, une digue en plein milieu du saint-Laurent."  ,
+          "Numero"  : 1 
+          },
+          {
+          "Descriptif"  : "Suivre la digue jusqu'au Récréo-Parc de Saint-Catherine (baignade $). "  ,
+          "Numero"  : 2 
+          },
+          {
+          "Descriptif"  : "Continuer un peu plus loin pour vous reposer à l'ombre, et admirer Montréal."  ,
+          "Numero"  : 3 
+          },
+          {
+          "Descriptif"  : "Retourner au pont juste avant le Récréo-Parc et traverser pour rejoindre la rive Sud." ,
+          "Numero"  : 4 
+          },
+          {
+          "Descriptif"  : "Remonter jusqu'aux écluses de Saint-Lambert, en longeant le fleuve, (voie verte pas toujours bien indiquée) en passant pas Candiac, La Prairie et Brossard ."  ,
+          "Numero"  : 5 
+          }
+      ] 
+},
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -73.57027888298035,
+      45.43429218887359
+    ]
+  }
+}
