@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "properties": {
+      "id" : 7,
+      "Nom" : "Bonté Divine",
+      "Type"  :null,
+      "Theme" :null,
+      "Adresse" :"1665 avenue de Bourgogne, \nChambly, QC, J3L 1Y8",
+      "Web" :"http://www.bontedivine.ca",
+      "DateTest"  :null,
+      "Comm"  :null,
+      "Categorie" :null,
+      "Depart"  :null,
+      "Arrivee" :null,
+      "Km"  :null,
+      "Duree" :null,
+      "NbJour"  :null,
+      "Note"  :null,
+      "Photo" :
+          [      
+            {
+              "URL"  : null,
+              "Legende"  : null
+            }  
+          ],      
+      "Etape" : [
+          {
+          "Descriptif"  : null,
+          "Numero"  : 1 
+          }
+      ] 
+},
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -73.28622221946716,
+      45.44768247796881
+    ]
+  }
+}
