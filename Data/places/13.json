@@ -1,0 +1,44 @@
+{
+  "type": "Feature",
+  "properties": {
+      "id" : 13,
+      "Nom" : "Dent la Bouffe",
+      "Type"  :"Lieu",
+      "Theme" :"Bouffe",
+      "Adresse" :"244 rue Saint-Charles Ouest, \n Longueuil, QC J4H 1E1",
+      "Web" :"http://www.restocommeparhasard.com",
+      "DateTest"  :"",
+      "Comm"  :"Une belle terrasse ombragée l'été (l'intérieur est plutôt décoré à l'ancienne), avec des hamburgers originaux pour un prix très abordable",
+      "Categorie" :"Restaurant",
+      "Depart"  :null,
+      "Arrivee" :null,
+      "Km"  :null,
+      "Duree" :null,
+      "NbJour"  :null,
+      "Note"  :null,
+      "Photo" :
+          [      
+            {
+              "URL"  : "",
+              "Legende"  : ""
+            } ,
+            {
+              "URL"  : "",
+              "Legende"  : ""
+            } 
+          ],      
+      "Etape" : [
+          {
+          "Descriptif"  : null,
+          "Numero"  : 1 
+          }
+      ] 
+},
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      0,
+      0
+    ]
+  }
+}

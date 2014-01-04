@@ -1,0 +1,44 @@
+{
+  "type": "Feature",
+  "properties": {
+      "id" : 10,
+      "Nom" : "Aux derniers humains",
+      "Type"  :"Lieu",
+      "Theme" :"Bouffe",
+      "Adresse" :"6950, rue Saint-Denis, \n Montreal, QC H2S 2S4",
+      "Web" :"http://www.auxderniershumains.com",
+      "DateTest"  :"",
+      "Comm"  :"A deux pas du marché Jean-Talon, ce café-bistro vous accueille chaleureusement pour un bon brunch, avec des serveurs aux petits soins qui ne vous laisseront jamais à court de café!",
+      "Categorie" :"Brunch",
+      "Depart"  :null,
+      "Arrivee" :null,
+      "Km"  :null,
+      "Duree" :null,
+      "NbJour"  :null,
+      "Note"  :null,
+      "Photo" :
+          [      
+            {
+              "URL"  : "AuxDerniersHumains.jpg",
+              "Legende"  : ""
+            } ,
+            {
+              "URL"  : "AuxDerniersHumains2.jpg",
+              "Legende"  : ""
+            } 
+          ],      
+      "Etape" : [
+          {
+          "Descriptif"  : null,
+          "Numero"  : 1 
+          }
+      ] 
+},
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      0,
+      0
+    ]
+  }
+}

@@ -3,13 +3,13 @@
   "properties": {
       "id" : 8,
       "Nom" : "Five Guys",
-      "Type"  :null,
-      "Theme" :null,
+      "Type"  :"Lieu",
+      "Theme" :"Bouffe",
       "Adresse" :"468 Mc Gill, \n Montréal, QC, H2Y2H4",
       "Web" :"http://www.fiveguys.com/",
-      "DateTest"  :null,
-      "Comm"  :null,
-      "Categorie" :null,
+      "DateTest"  :"15 décembre 2013",
+      "Comm"  :"Une référence en terme de frites, burgers et hot dog, de Montréal à New York! Choisissez garnitures et sauces, et servez vous dans les sacs d'arachides en vrac en attendant que votre burger soit prêt! Les coupures de journaux au mur ne tarissent pas d'éloge sur ce lieu mythique apparemment",
+      "Categorie" :"Fast-Food",
       "Depart"  :null,
       "Arrivee" :null,
       "Km"  :null,
@@ -19,9 +19,13 @@
       "Photo" :
           [      
             {
-              "URL"  : null,
-              "Legende"  : null
-            }  
+              "URL"  : "FiveGuys.jpeg",
+              "Legende"  : "Une déco brute à l'américaine"
+            } ,
+            {
+              "URL"  : "FiveGuys2.jpeg",
+              "Legende"  : "Sera-t-il votre meilleur burger ?!"
+            } 
           ],      
       "Etape" : [
           {
