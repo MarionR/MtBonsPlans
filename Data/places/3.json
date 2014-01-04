@@ -6,21 +6,21 @@
         "Note": 4,
         "Type": "Lieu",
         "Theme" : "Bouffe",
-        "Categorie": "Brunch",
-        "Adresse": "4351 Avenue de Lorimier, Montréal, H2H 2B3",
+        "Categorie": "Brunch/Salon de thé",
+        "Adresse": "4351 Avenue de Lorimier, \nMontréal, QC H2H 2B3",
         "Web": "http://www.maammbolduc.com/fr/accueil‎",
         "DateTest": "27 octobre 2013",
         "Photo": [
           {
             "URL": "bolduc1.jpg",
-            "Legende": "boucherville blabla"
+            "Legende": "Une devanture qui attire l'oeil"
           },
           {
             "URL": "bolduc2.jpg",
-            "Legende": "Les dimanches du conte"
+            "Legende": "Ambiance hétéroclite"
           }
         ],
-        "Comm": "super brunch, Terrasse pas très sympathique car trop proche du boulevard mais en tout cas c''est un chouette endroit bien cosis et avec des serveurs biens sympathiques"
+        "Comm": "Super brunch, déco bien fun et menu fait main ! La terrasse est un peu trop proche du boulevard mais en tout cas c'est un chouette endroit bien cosis pour bien commencer la journée et avec des serveurs biens sympathiques"
       },
       "geometry": {
         "type": "Point",

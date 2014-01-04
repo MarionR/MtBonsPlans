@@ -3,13 +3,13 @@
   "properties": {
       "id" : 6,
       "Nom" : "Marius et Fanny",
-      "Type"  :null,
-      "Theme" :null,
-      "Adresse" :"4439 St Denis \n Coin St Denis \n Montréal, QC, H2T 2T2",
-      "Web" :null,
-      "DateTest"  :null,
-      "Comm"  :"Patisserie / Chocolaterie, 4,25+tx le chocolat",
-      "Categorie" :null,
+      "Type"  :"Lieu",
+      "Theme" :"Bouffe",
+      "Adresse" :"4439 Saint-Denis, \nMontréal, QC H2T 2T2",
+      "Web" :"http://www.mariusetfanny.com",
+      "DateTest"  :"30 décembre 2013",
+      "Comm"  :"Le temple du chocolat chaud! On n'a gouté que le chocolat chaud maison à la noix de coco, mais comme pour du thé ou du café vous pouvez choisir parmi 10 types de chocolat (Tanzanie, Ghana,...) et il sera fondu sur place en une délicieuse boisson chaude... vous n'avez plus qu'à vous asseoir pour le déguster, au milieu des confiseries, viennoiseries et macarons!",
+      "Categorie" :"Brunch/Salon de thé",
       "Depart"  :null,
       "Arrivee" :null,
       "Km"  :null,
@@ -19,8 +19,12 @@
       "Photo" :
           [      
             {
-              "URL"  : null,
-              "Legende"  : null
+              "URL"  : "MariusetFanny.jpg",
+              "Legende"  : "Une boulangerie/salon de thé comme on les aime"
+            },
+            {
+              "URL"  : "MariusetFanny2.jpg",
+              "Legende"  : "Un chocolat chaud et onctueux fait de pures pastilles de chocolat"
             }  
           ],      
       "Etape" : [
@@ -28,7 +32,7 @@
           "Descriptif"  : null,
           "Numero"  : 1 
           }
-      ] 
+      ]
 },
   "geometry": {
     "type": "Point",

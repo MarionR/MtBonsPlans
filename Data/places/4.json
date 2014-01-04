@@ -7,17 +7,17 @@
     "Type": "Lieu",
     "Theme" : "Bouffe",
     "Categorie": "Bar",
-    "Adresse": "6289, rue Saint-Hubert, Montréal, QC H2S 2L9",
+    "Adresse": "6289, rue Saint-Hubert, \nMontréal, QC H2S 2L9",
     "Web": "http://www.legainzbar.ca",
     "DateTest": "12 octobre 2013",
-    "Comm": "super bar !! Avec les dimanches du conte le Dimanche soir ! ",
+    "Comm": "Super bar !! Idéal pour prendre une bière... et le dimanche soir, il y a des soirées contes (10$) : bien installé dans votre fauteuil en velours, dans une ambiance feutrée, laissez vous emporter dans l'imaginaire sans limite des conteurs du Québec et des quatre coins du monde! à faire absolument lors de votre séjour à Montréal !",
     "Photo": [
       {
         "URL": "gainzbar1.jpg",
-        "Legende": "boucherville blabla"
+        "Legende": "Le Gainzbar, rue Saint-Hubert"
       },
       {
-        "URL": "gainzbar2.jpg",
+        "URL": "LesDimanchesDuConte.jpg",
         "Legende": "Les dimanches du conte"
       }
     ]
