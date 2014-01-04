@@ -20,11 +20,11 @@
           [      
             {
               "URL"  : "AuxDerniersHumains.jpg",
-              "Legende"  : ""
+              "Legende"  : null
             } ,
             {
               "URL"  : "AuxDerniersHumains2.jpg",
-              "Legende"  : ""
+              "Legende"  : null
             } 
           ],      
       "Etape" : [

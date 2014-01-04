@@ -2,7 +2,7 @@
   "type": "Feature",
   "properties": {
       "id" : 13,
-      "Nom" : "Dent la Bouffe",
+      "Nom" : "Comme par Hasard",
       "Type"  :"Lieu",
       "Theme" :"Bouffe",
       "Adresse" :"244 rue Saint-Charles Ouest, \n Longueuil, QC J4H 1E1",
@@ -19,13 +19,9 @@
       "Photo" :
           [      
             {
-              "URL"  : "",
-              "Legende"  : ""
-            } ,
-            {
-              "URL"  : "",
-              "Legende"  : ""
-            } 
+              "URL"  : null,
+              "Legende"  : null
+            }
           ],      
       "Etape" : [
           {

@@ -7,7 +7,7 @@
       "Theme" :"Bouffe",
       "Adresse" :"17 d'Aberdeen, \n Saint-Lambert, QC J4P 1R2",
       "Web" :null,
-      "DateTest"  :"",
+      "DateTest"  :null,
       "Comm"  :"Bagel à la crème et pancakes, un lieu sans prétention mais le déjeuner au soleil sur la terrasse à l'écart de la rue princicipale est toujours fort apprécié",
       "Categorie" :"Brunch",
       "Depart"  :null,
@@ -19,12 +19,8 @@
       "Photo" :
           [      
             {
-              "URL"  : "",
-              "Legende"  : ""
-            } ,
-            {
-              "URL"  : "",
-              "Legende"  : ""
+              "URL"  : null,
+              "Legende"  : null
             } 
           ],      
       "Etape" : [

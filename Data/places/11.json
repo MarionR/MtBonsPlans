@@ -20,11 +20,7 @@
           [      
             {
               "URL"  : "CremerieBoucherville.jpg",
-              "Legende"  : ""
-            } ,
-            {
-              "URL"  : "AuxDerniersHumains2.jpg",
-              "Legende"  : ""
+              "Legende"  : null
             } 
           ],      
       "Etape" : [
